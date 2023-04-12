@@ -36,7 +36,7 @@ requirements:
     - cross-r-base {{ r_base }}      # [build_platform != target_platform]
     - r-base {{ r_base }}
   host:
-    - r-base
+    - r-base {{ r_base }}
     - r-matrix
     - r-rcpp
     - r-rcpparmadillo
@@ -54,7 +54,7 @@ requirements:
     - libgomp                        # [linux]
     - llvm-openmp                    # [osx]
   run:
-    - r-base
+    - r-base {{ r_base }}
     - {{ native }}gcc-libs           # [win]
     - {{ native }}libwinpthread-git  # [win]
     - r-matrix
