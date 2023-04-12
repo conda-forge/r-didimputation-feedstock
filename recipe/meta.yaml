@@ -49,8 +49,8 @@ requirements:
     - r-purrr
     - r-stringr
     - r-tidyr
-    - libblas
-    - liblapack
+    - libblas =3.9.0=16_win64_mkl
+    - liblapack =3.9.0=16_win64_mkl
     - libgomp                        # [linux]
     - llvm-openmp                    # [osx]
   run:
