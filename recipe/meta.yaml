@@ -69,6 +69,7 @@ requirements:
     - r-purrr
     - r-stringr
     - r-tidyr
+    - libopenblas
 
 test:
   commands:
