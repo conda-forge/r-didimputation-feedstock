@@ -34,6 +34,7 @@ requirements:
     - {{ posix }}coreutils           # [win]
     - {{ posix }}zip                 # [win]
     - cross-r-base {{ r_base }}      # [build_platform != target_platform]
+    - r-base {{ r_base }}
   host:
     - r-base
     - r-matrix
