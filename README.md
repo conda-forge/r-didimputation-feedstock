@@ -93,13 +93,6 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-didimputation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_r_base4.1" alt="variant">
                 </a>
               </td>
-            </tr><tr>
-              <td>win_64_r_base4.2</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18873&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-didimputation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_r_base4.2" alt="variant">
-                </a>
-              </td>
             </tr>
           </tbody>
         </table>
