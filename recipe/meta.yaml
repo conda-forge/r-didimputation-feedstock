@@ -18,6 +18,7 @@ build:
     - lib/
   missing_dso_whitelist:
     - '*/R.dll'                      # [win]
+    - '*/Rblas.dll'                      # [win]
     - '*/Rlapack.dll'                # [win]
 
 requirements:
@@ -65,6 +66,7 @@ requirements:
     - r-purrr
     - r-stringr
     - r-tidyr
+    - libgomp                        # [win]
 
 test:
   commands:
